@@ -1,0 +1,7 @@
+record_id,item_name,order_date,amount
+ID-101,"  Widget A  ",2026-09-01,12.00
+ID-102,Widget B,2026-09-02,19.50
+ID-102,Widget B,2026-09-02,19.50
+ID-103,Widget C,,8.25
+ID-104,Widget D,2026-09-04,9.00
+ID-104,Widget D,2026-09-05,10.00
