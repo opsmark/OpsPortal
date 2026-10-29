@@ -2,8 +2,7 @@
 
 A small, inspectable example of conservative spreadsheet cleanup: compare invented source rows with reviewed output, see which duplicate was removed, and see why conflicting records remain flagged. The example is free. A separate $59 fixed-scope cleanup enquiry is optional and requires a fit check before payment.
 
-
-## Free CARK / OPS example
+## Download and inspect
 
 [Download the fictional CSV cleanup and QA example (ZIP)](https://media.base44.com/files/public/6a89094776dbb07b37c5ae96/423c51ccf_CARK_CSV_QA_Fictional_Example_v1_20261028.zip)
 
