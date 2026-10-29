@@ -1,5 +1,7 @@
-# OpsPortal
-Quantum portal app
+# CARK / OPS — Free CSV cleanup QA example
+
+A small, inspectable example of conservative spreadsheet cleanup: compare invented source rows with reviewed output, see which duplicate was removed, and see why conflicting records remain flagged. The example is free. A separate $59 fixed-scope cleanup enquiry is optional and requires a fit check before payment.
+
 
 ## Free CARK / OPS example
 
