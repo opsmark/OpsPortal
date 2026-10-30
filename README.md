@@ -10,6 +10,8 @@ The example removes one exact duplicate, demonstrates a manually reviewed whites
 
 ## 2. Run the free offline exact-row utility
 
+**Known v5 receipt-cleanup limitation (confirmed in an isolated fault-injection test):** If the program fails while opening its newly published output for verification, it can leave a `.deduped.csv` file **without** the corresponding `.dedupe-receipt.json`. An output file without a matching receipt is **not a completed or approved result**. Run only on non-sensitive copies in a private, stable scratch folder, keep the original and a backup, and do not assume shared/synchronized-folder or Windows safety. If the receipt is missing, preserve the files for manual reconciliation; do not blindly rerun over existing paths or delete an output that another process may have changed. This is a documented v5 limitation; newer private repairs are not yet an accepted public replacement.
+
 **[Download current CSV Dedupe v5 (ZIP)](https://media.base44.com/files/public/6a89094776dbb07b37c5ae96/4967c0755_CARK_Offline_Exact_CSV_Dedupe_v5.zip)** — Python 3.9+; standard library only; no cloud account, new package, or API credits.
 
 To inspect before downloading, read the current [Python source](samples/csv-qa/offline-exact-v5/conservative_csv_dedupe.py), [12 automated tests](samples/csv-qa/offline-exact-v5/test_conservative_csv_dedupe.py), or [usage instructions](samples/csv-qa/offline-exact-v5/README.txt).
