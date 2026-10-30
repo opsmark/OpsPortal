@@ -32,6 +32,6 @@ Alternatively, the existing [CARK / OPS CSV cleanup service on Contra](https://c
 
 Other available tools and educational demonstrations: [CARK / OPS Working Tools](https://ops-workflow-cost-calculator.rass991.chatgpt.site/).
 
-**Found a reproducible tool defect or unclear instruction?** [Open a GitHub issue](https://github.com/opsmark/OpsPortal/issues/new) with the tool version, Python version, operating system, exact error and a **small invented CSV** that reproduces it. Do **not** attach customer data, credentials, medical or financial records. An issue is feedback, not a support SLA or an accepted paid task.
+**Found a reproducible tool defect or unclear instruction?** [Open a GitHub issue](https://github.com/opsmark/OpsPortal/issues/new?template=csv_tool_bug.md) with the tool version, Python version, operating system, exact error and a **small invented CSV** that reproduces it. Do **not** attach customer data, credentials, medical or financial records. An issue is feedback, not a support SLA or an accepted paid task.
 
 *Source examples and automated tests demonstrate bounded capabilities—not independent customer use, performance guarantees or revenue.*
