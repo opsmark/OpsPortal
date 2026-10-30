@@ -12,6 +12,13 @@ This small public demonstration contains an invented raw CSV, a reviewed CSV and
 
 For existing free tools and learning resources, visit [CARK / OPS Working Tools](https://ops-workflow-cost-calculator.rass991.chatgpt.site/).
 
+### Try the free offline exact-row tool
+
+[Download Offline Exact CSV Dedupe v1 — Python source, tests and instructions (ZIP)](https://media.base44.com/files/public/6a89094776dbb07b37c5ae96/b880b1a6a_CARK_Offline_Exact_CSV_Dedupe_v1.zip)
+
+This is a **different, narrower capability** from the illustrative manually reviewed sample above: it removes only rows where **every CSV field matches exactly**, saves a new file without replacing the original, and writes an audit receipt with counts and source/output hashes. The package includes four regression tests. Requirements: Python 3.9+, UTF-8 CSV with valid unique headers, at most 1 MB and 10,000 data rows; no paid services or network required. It does **not** trim values, choose the newest conflicting record, resolve fuzzy matches, preserve XLSX formulas/styles, or certify data accuracy. Always inspect output before using it. Formula-like CSV values are not escaped, so treat untrusted source files cautiously in spreadsheet applications.
+
+
 ### Want help with a CSV you own?
 
 CARK / OPS lists a **$59 fixed-scope spreadsheet cleanup and QA pilot** for **one agreed, non-sensitive CSV of up to 10,000 rows**, subject to an initial fit, available capacity and an agreed delivery date. The described output is a cleaned CSV, a short QA/exception summary and one correction pass. It does not include guaranteed Excel/XLSX processing, accounting approval, regulated data, open-ended enrichment or assumptions about conflicting records.
