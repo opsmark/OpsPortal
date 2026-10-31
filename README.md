@@ -12,6 +12,10 @@ Compare a small **fictional** before/after cleanup, run a free exact-row dedupli
 
 **Important:** The free automated tool compares all parsed cell values (so differing CSV quoting can still produce a duplicate); it does not compare raw row bytes. The manually reviewed fictional example illustrates additional human decisions; they are not the same workflow. For the paid pilot, scope, capacity, safe transfer and delivery date must all be agreed before any payment or file exchange.
 
+## Separate faculty workflow demonstration
+
+[Source-grounded editable PowerPoint + Word draft proof](samples/faculty-workflow-proof/README.md) — a fictional, verified demonstration of turning a structured fact packet into four student slides and an instructor note with provenance and a faculty-approval hold. This is **not** the CSV cleanup service, an implemented RAG system, or a claimed paid university deployment. The demo page has a description-only discovery enquiry for genuinely matching document-workflow problems; no confidential source uploads or purchase are requested.
+
 ## 1. See what a conservative cleanup looks like — free
 
 [Download the six-row fictional example (ZIP)](https://media.base44.com/files/public/6a89094776dbb07b37c5ae96/423c51ccf_CARK_CSV_QA_Fictional_Example_v1_20261028.zip) or inspect its [source CSV](samples/csv-qa/raw-fictional.csv), [reviewed CSV](samples/csv-qa/reviewed-fictional.csv), and [decision log](samples/csv-qa/README.txt).
