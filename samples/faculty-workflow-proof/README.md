@@ -12,4 +12,29 @@ A fictional supply-chain case in `source_packet.json` (explicit source fact IDs 
 
 A production system would need a separately agreed discovery/architecture phase covering rights, sensitive-data policies, verified source registries/retrieval, approved hosted/local model routes, tests for unsupported claims, faculty review, editable exports, and secure owner handoff. No protected customer workflow is offered through this ZIP.
 
+
+## Workflow boundary diagram
+
+**Solid first path is demonstrated only with fictional structured source data.** All remaining gates are **proposed for discovery and buyer acceptance**; the ZIP does not implement institutional authentication, private file transfer, embeddings, or an approval UI.
+
+```mermaid
+flowchart TD
+    A["Authorized source facts — synthetic F01–F04"] --> B["Deterministic fact & unknown registry"]
+    B --> C["Consistency and source-ID checks"]
+    C --> D["Editable student PPTX draft"]
+    C --> E["Editable instructor DOCX draft"]
+    D --> F{"Faculty review — not implemented as an app"}
+    E --> F
+    F -->|Reject / corrections| B
+    F -->|Explicit approval| G["Potential final release — not implemented"]
+    H["Future confidential files"] --> I{"Rights, privacy and secure-intake approval"}
+    I -->|Not approved| J["Do not ingest"]
+    I -->|Approved only| K["Future controlled document parsing and retrieval"]
+    K -.-> B
+```
+
+**Decision boundaries:** The current code creates drafts and verifies source references; it cannot finalize a faculty judgment. A production owner must determine data residency, role-based access, third-party processor permissions, retrieval quality and supported export fidelity before admitting private material. An editable output is not evidence of accurate scholarship; all citations, claims, teaching quality and intellectual-property rights require review.
+
+**Acceptance checks for a proposed paid pilot:** (1) one rights-cleared representative input, (2) exact source-to-claim traceability, (3) source-neutral handling of unknowns, (4) editable PPTX/DOCX, (5) student/instructor content separation, (6) explicit faculty approval before final status, (7) measured human time and revision effort, and (8) owner-accepted data-retention and handoff rules. Only checks (2)–(5) have bounded synthetic evidence today; (1) is satisfied by an invented dataset rather than client rights clearance, and (6) is a visible draft-state hold rather than a functioning approval workflow.
+
 **Current commercial status:** Example only; application, quote, buyer review, contract, payment and revenue **not established**. Public readability does not imply a project-wide open-source license or permission to process confidential material.
