@@ -2,6 +2,16 @@
 
 Compare a small **fictional** before/after cleanup, run a free exact-row deduplication tool on your own **non-sensitive** CSV, or ask about a separately scoped paid cleanup service. No sign-in or payment is needed to inspect the examples or download the tool.
 
+## Quick start — choose what you need
+
+| Your goal | Best starting point | Cost |
+| --- | --- | --- |
+| See a before/after cleanup without sharing any data | [Six-row fictional example](samples/csv-qa/README.txt) | Free |
+| Remove *exactly identical* CSV rows yourself, offline | [Tool instructions](samples/csv-qa/offline-exact-v5/README.txt) and [source code](samples/csv-qa/offline-exact-v5/conservative_csv_dedupe.py) | Free |
+| Ask about a real, non-sensitive CSV and an agreed QA/exception summary | [Request a scope check](#3-need-someone-to-review-your-csv) before payment | Conditional $59 pilot |
+
+**Important:** The free automated tool does only exact-row removal. The manually reviewed fictional example illustrates additional human decisions; they are not the same workflow. For the paid pilot, scope, capacity, safe transfer and delivery date must all be agreed before any payment or file exchange.
+
 ## 1. See what a conservative cleanup looks like — free
 
 [Download the six-row fictional example (ZIP)](https://media.base44.com/files/public/6a89094776dbb07b37c5ae96/423c51ccf_CARK_CSV_QA_Fictional_Example_v1_20261028.zip) or inspect its [source CSV](samples/csv-qa/raw-fictional.csv), [reviewed CSV](samples/csv-qa/reviewed-fictional.csv), and [decision log](samples/csv-qa/README.txt).
