@@ -2,8 +2,9 @@ CARK / OPS — Free offline exact-row CSV deduplication tool, v5
 
 Purpose: remove rows whose PARSED cell values match in all columns. Raw
 CSV bytes need not match: different quoting or line endings can decode to the
-same values and count as duplicates. This is not fuzzy matching, business-key merges, 'newest record' decisions, whitespace
-normalization or manual source repair. This deliberately narrower tool DOES NOT
+same values and count as duplicates. This is not fuzzy matching,
+business-key merging, 'newest record' decisions, whitespace normalization,
+or manual source repair. This deliberately narrower tool DOES NOT
 reproduce the separate reviewed fictional example's whitespace transformation.
 
 Requires: Python 3.9+ on a machine you control. No additional Python packages,
