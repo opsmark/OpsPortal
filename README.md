@@ -7,10 +7,10 @@ Compare a small **fictional** before/after cleanup, run a free exact-row dedupli
 | Your goal | Best starting point | Cost |
 | --- | --- | --- |
 | See a before/after cleanup without sharing any data | [Six-row fictional example](samples/csv-qa/README.txt) | Free |
-| Remove *exactly identical* CSV rows yourself, offline | [Tool instructions](samples/csv-qa/offline-exact-v5/README.txt) and [source code](samples/csv-qa/offline-exact-v5/conservative_csv_dedupe.py) | Free |
+| Remove CSV rows with *identical parsed cell values* yourself, offline | [Tool instructions](samples/csv-qa/offline-exact-v5/README.txt) and [source code](samples/csv-qa/offline-exact-v5/conservative_csv_dedupe.py) | Free |
 | Ask about a real, non-sensitive CSV and an agreed QA/exception summary | [Request a scope check](#3-need-someone-to-review-your-csv) before payment | Conditional $59 pilot |
 
-**Important:** The free automated tool does only exact-row removal. The manually reviewed fictional example illustrates additional human decisions; they are not the same workflow. For the paid pilot, scope, capacity, safe transfer and delivery date must all be agreed before any payment or file exchange.
+**Important:** The free automated tool compares all parsed cell values (so differing CSV quoting can still produce a duplicate); it does not compare raw row bytes. The manually reviewed fictional example illustrates additional human decisions; they are not the same workflow. For the paid pilot, scope, capacity, safe transfer and delivery date must all be agreed before any payment or file exchange.
 
 ## 1. See what a conservative cleanup looks like — free
 
