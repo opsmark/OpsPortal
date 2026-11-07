@@ -12,7 +12,7 @@ assignees: []
 Explain the unexpected behavior, and what you expected instead.
 
 ### Tool and environment
-- Tool version (e.g. v5):
+- Tool version (current public default: v9; specify v5 or another version if applicable):
 - Python version (`python --version`):
 - Operating system:
 - How installed (downloaded ZIP, GitHub source, other):
